@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lem Logo</title>
+    <style type="text/css">
+      body{
+          font-family: sans-serif;
+          font-size: 28pt;
+          text-align: center;
+          margin: 80px 0 0 0;
+          overflow-y: scroll;
+      }
+      .settings{
+          background: white;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+      }
+      .settings div{
+          display: inline-block;
+          margin: 10px;
+      }
+      main{
+          font-size: 0;
+          max-width: 1000px;
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .wrap{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          padding: 30px;
+          transition: background-color 0.5s ease;
+          width: 300px;
+          margin: 0;
+      }
+      .wrap p{
+          margin: 0;
+          font-size: 28pt;
+      }
+      object{
+          width: 64px;
+          height: 64px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="settings">
+      <div><label>Background:</label> <input type="color" value="#FFFFFF" id="background" /></div>
+      <div><label>Foreground:</label> <input type="color" value="#000000" id="foreground" /></div>
+      <div><label>Size:</label> <input type="range" min="8" max="256" value="64" id="size" /></div>
+    </div>
+    <main>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-tran-flat.svg" class="colorable"></object>
+        <p>Transparent Flat</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-tran-shaded.svg"></object>
+        <p>Transparent Shaded</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-gray-flat.svg"></object>
+        <p>Gray Flat</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-gray-shaded.svg"></object>
+        <p>Gray Shaded</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-blue-flat.svg"></object>
+        <p>Blue Flat</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-blue-shaded.svg"></object>
+        <p>Blue Shaded</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-blue-alt-1.svg"></object>
+        <p>Blue Alt 1</p>
+      </div>
+      <div class="wrap">
+        <object type="image/svg+xml" data="icon-blue-alt-2.svg"></object>
+        <p>Blue Alt 2</p>
+      </div>
+    </main>
+    <script type="text/javascript">
+      var init = function(){
+          var background = document.getElementById("background");
+          var foreground = document.getElementById("foreground");
+          var size = document.getElementById("size");
+          var main = document.getElementsByTagName("main")[0];
+          var imgs = document.getElementsByTagName("object");
+
+          var updateIcons = function(){
+              var bg = background.value;
+              var fg = foreground.value;
+              var sz = size.value;
+              main.style.background = bg;
+              for(var i=0; i<imgs.length; i++){
+                  var img = imgs[i];
+                  img.style.width = sz+"px";
+                  img.style.height = sz+"px";
+                  if(img.classList.contains("colorable")){
+                      var paths = img.contentDocument.querySelectorAll("path,circle,rect");
+                      for(var j=0; j<paths.length; j++){
+                          paths[j].style.fill = fg;
+                      }
+                  }
+              }
+          }
+          
+          background.addEventListener('input', updateIcons);
+          foreground.addEventListener('input', updateIcons);
+          size.addEventListener('input', updateIcons);
+          updateIcons();
+      };
+      document.addEventListener("DOMContentLoaded", init, false);
+    </script>
+  </body>
+</html>
