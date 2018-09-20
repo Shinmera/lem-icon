@@ -15,7 +15,7 @@
    viewBox="0 0 33.866666 33.866668"
    version="1.1"
    id="svg8"
-   sodipodi:docname="icon-blue-flat.svg"
+   sodipodi:docname="icon-blue-brighter.svg"
    inkscape:version="0.92.2 2405546, 2018-03-11">
   <defs
      id="defs2">
@@ -25,11 +25,11 @@
       <stop
          id="stop1453"
          offset="0"
-         style="stop-color:#b2bbd4;stop-opacity:1" />
+         style="stop-color:#7fa9cf;stop-opacity:1" />
       <stop
          id="stop1455"
          offset="1"
-         style="stop-color:#ccd4ea;stop-opacity:1" />
+         style="stop-color:#9fd2ff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -49,15 +49,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568543"
-     inkscape:cx="26.500895"
-     inkscape:cy="83.324269"
+     inkscape:cx="45.278837"
+     inkscape:cy="59.701499"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1916"
-     inkscape:window-height="1153"
-     inkscape:window-x="1920"
+     inkscape:window-height="1033"
+     inkscape:window-x="0"
      inkscape:window-y="45"
      inkscape:window-maximized="0"
      showguides="false"
@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,20 +87,20 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="opacity:1;fill:#ccd4ea;fill-opacity:1;stroke:none;stroke-width:5.05768633;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="opacity:1;fill:#9fd2ff;fill-opacity:1;stroke:none;stroke-width:5.05768633;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 8.7005899,281.09012 c 7.0551231,-3.86569 7.8892371,2.03043 18.9666001,-1.58504 2.574965,-0.94494 2.853206,-2.86878 2.735088,-3.60111 -18.048762,-14.01045 -21.7016881,5.18615 -21.7016881,5.18615 z"
        id="path922-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       style="fill:#2b3858;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#2975b8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 61.810547,1.5800781 C 37.621571,2.1419427 14.805075,18.376376 6.1484375,40.923828 -2.923754,63.092307 2.3618911,90.182024 19.154297,107.27539 c 6.541533,6.96103 14.793542,12.20849 23.779297,15.44922 15.138925,5.02441 23.136997,-7.76088 23.136997,-7.76088 C 25.26702,102.37443 54.369667,62.897142 54.369667,62.897142 41.862551,61.519003 33.035156,67.732422 33.035156,67.732422 39.0173,43.178872 66.873543,42.489592 66.873543,42.489592 72.095112,23.211255 61.810547,1.5800781 61.810547,1.5800781 Z"
        transform="matrix(0.26458333,0,0,0.26458333,0,263.13332)"
        id="path977"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <path
-       style="opacity:1;fill:#8f9cc1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="opacity:1;fill:#3991de;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 61.810547,1.5800781 C 52.01351,2.0648697 35.942855,5.5688614 26.390625,22.185547 c 0,0 41.334023,-13.4519791 55.988281,32.027901 0,0 22.395804,-11.481859 32.527314,-5.94587 C 110.98125,27.215312 88.386255,1.626616 61.810547,1.5800781 Z"
        transform="matrix(0.26458333,0,0,0.26458333,0,263.13332)"
        id="path964"
